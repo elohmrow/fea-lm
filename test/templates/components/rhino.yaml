@@ -1,0 +1,3 @@
+templateScript: /test/templates/components/rhino.ftl
+renderType: freemarker
+modelClass: info.magnolia.module.jsmodels.rendering.JavascriptRenderingModel

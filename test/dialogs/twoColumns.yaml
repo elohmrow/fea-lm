@@ -1,0 +1,20 @@
+actions:
+  commit:
+    label: save changes
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    label: cancel
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+  tabs:
+    - name: tabMain
+      label: Two Columns dialog
+      fields:
+        - name: titleLeft
+          label: left title
+          description: enter the left title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: titleRight
+          label: right title
+          description: enter the right title
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition

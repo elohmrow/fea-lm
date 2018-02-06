@@ -1,0 +1,21 @@
+dialog: test:twoColumns
+description: add components into two columns
+renderType: freemarker
+title: Two Columns
+templateScript: /test/templates/components/twoColumns.ftl
+areas:
+  leftColumn:
+    availableComponents:
+      textImage:
+        id: test:components/textImage
+      twoColumns:
+        id: test:components/twoColumns
+  rightColumn:
+    availableComponents:
+      textImage:
+        id: test:components/textImage
+      twoColumns:
+        id: test:components/twoColumns
+parameters:
+  divColLeft: col-sm-8
+  divColRight: col-sm-4

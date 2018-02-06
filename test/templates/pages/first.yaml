@@ -1,0 +1,15 @@
+renderType: freemarker
+title: First FTL
+templateScript: /test/templates/pages/first.ftl
+dialog: test:firstFTL
+areas:
+  main:
+    availableComponents:
+      textImage:
+        id: test:components/textImage
+      twoColumns:
+        id: test:components/twoColumns
+      rhino:
+        id: test:components/rhino
+      rest:
+        id: javascript-model-samples:components/rest

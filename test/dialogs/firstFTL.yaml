@@ -1,0 +1,22 @@
+actions:
+  commit:
+    label: save changes
+    class: info.magnolia.ui.admincentral.dialog.action.SaveDialogActionDefinition
+  cancel:
+    label: cancel
+    class: info.magnolia.ui.admincentral.dialog.action.CancelDialogActionDefinition
+form:
+  tabs:
+    - name: tabMain
+      label: First Page Dialog
+      fields:
+        - name: title
+          description: enter the page title
+          label: title
+          required: true
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
+        - name: abstract
+          label: abstract
+          description: enter an abstract
+          rows: 5
+          class: info.magnolia.ui.form.field.definition.TextFieldDefinition
