@@ -1,0 +1,10 @@
+title: vue-home
+templateScript: /vue-contacts/templates/pages/vue-home.ftl
+renderType: freemarker
+visible: true
+
+areas:
+  main:
+    availableComponents:
+      vue-contacts:
+        id: vue-contacts:components/vue-contacts

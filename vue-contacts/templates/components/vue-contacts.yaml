@@ -1,0 +1,4 @@
+title: vue-contacts
+renderType: freemarker
+templateScript: /vue-contacts/templates/components/vue-contacts.ftl
+dialog: vue-contacts:components/vue-contacts

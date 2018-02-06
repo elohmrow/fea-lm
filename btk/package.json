@@ -1,0 +1,19 @@
+{
+  "name": "btk",
+  "version": "1.0.0",
+  "description": "Bootstrap Templating Kit is a light module for Magnolia CMS with a basic set of templates ideal to start new website project based on Bootstrap framework.",
+  "repository": {
+    "type": "git",
+    "url": "https://git.magnolia-cms.com/scm/light-modules/btk.git"
+  },
+  "keywords": [
+    "magnolia-light-module",
+    "magnolia-kit",
+    "magnolia",
+    "bootstrap",
+    "bootstrap templating kit"
+  ],
+  "author": "Tomáš Gregovský, tomas.gregovsky@magnolia.com",
+  "license": "MIT",
+  "homepage": "https://git.magnolia-cms.com/projects/LIGHT-MODULES/repos/btk/browse"
+}
