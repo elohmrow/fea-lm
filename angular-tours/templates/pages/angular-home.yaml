@@ -1,0 +1,8 @@
+title: angular-home
+templateScript: /angular-tours/templates/pages/angular-home.ftl
+renderType: freemarker
+dialog: angular-tours:pages/angular-home
+visible: true
+variations:
+  json:
+    templateScript: /angular-tours/templates/pages/angular-home-json.ftl
